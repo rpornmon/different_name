@@ -283,6 +283,60 @@ footer {
   text-align: center;
 }
 
+//
+// GALLERY
+//
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin: 20px 0;
+
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.gallery-item {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.gallery-item.placeholder {
+  background: $lightGray;
+  color: $gray;
+  font-size: 14px;
+}
+
+//
+// CONTACT
+//
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+
+  li {
+    border-bottom: 1px solid $lightGray;
+    padding: 12px 0;
+  }
+
+  a {
+    font-size: 18px;
+  }
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
