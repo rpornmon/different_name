@@ -1,0 +1,11 @@
+- src: /images/gallery/raul-1.jpg
+  alt: "Description of photo 1"
+  tags: [humanitys-best-friends]
+
+- src: /images/gallery/chaba.jpg
+  alt: "Description of photo 2"
+  tags: [terra-flora]
+
+- src: /images/gallery/squirrel.jpg
+  alt: "Description of photo 3"
+  tags: [humanitys-best-friends]

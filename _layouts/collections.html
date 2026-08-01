@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<div class="gallery-grid">
+  {% assign photos = site.data.photos | where_exp: "p", "p.tags contains page.slug" %}
+  {% for photo in photos %}
+    <div class="gallery-item">
+      <img src="{{ photo.src }}" alt="{{ photo.alt }}">
+    </div>
+  {% endfor %}
+</div>
+
+<p><a href="{{ site.baseurl }}/gallery/">&larr; Back to Gallery</a></p>
