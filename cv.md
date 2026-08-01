@@ -4,16 +4,8 @@ title: CV
 permalink: /cv/
 ---
 
-[Download my CV (PDF)](/files/cv.pdf)
+[Download full CV (PDF)](/files/20251002_MasterCV_RP.pdf)
 
-*(Placeholder link -- add your CV PDF to a `/files/` folder in the repo and update the link above. Or replace this page with an inline summary of education, positions, teaching, and awards.)*
-
-### Education
-
-- PhD, Genetics and Genomics, Duke University (in progress)
-- B.A., Brown University
-- Blair Academy
-
-### Positions
-
-*(Placeholder -- list research, teaching, and outreach roles here.)*
+<iframe src="/files/20251002_MasterCV_RP.pdf" width="100%" height="800px" style="border: none;">
+  This browser doesn't support embedded PDFs. <a href="/files/20251002_MasterCV_RP.pdf">Download the PDF</a> instead.
+</iframe>
